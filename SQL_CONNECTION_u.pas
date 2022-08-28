@@ -38,7 +38,7 @@ procedure TDemonstration.connectButtonClick(Sender: TObject);
 begin
   SQLConnection1.Params.Add('Database=tagteam.sqlite3');
   try
-    SQLConnection1.Connected := true;            //test test
+    SQLConnection1.Connected := true;            //MICHAEL TEST 1 2 3
     executeButton.Enabled := true;
     outputMemo.Text := 'Connection Established!';
   except
